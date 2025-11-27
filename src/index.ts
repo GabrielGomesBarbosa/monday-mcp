@@ -28,8 +28,8 @@ import { registerTools } from './tools';
  * This information is sent to the client when they connect.
  */
 export const server = new McpServer({
-  name: 'monday-server',    // The name of this server (used for identification)
-  version: '1.0.0'          // The version of this server
+  name: 'mat-monday-server',  // The name of this server (used for identification)
+  version: '0.0.1'            // The version of this server
 });
 
 /**
