@@ -17,12 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/GabrielGomesBarbosa/node-mcp-first.git"
+    "url": "https://github.com/GabrielGomesBarbosa/monday-mcp.git"
   },
   "bugs": {
-    "url": "https://github.com/GabrielGomesBarbosa/node-mcp-first/issues"
+    "url": "https://github.com/GabrielGomesBarbosa/monday-mcp/issues"
   },
-  "homepage": "https://github.com/GabrielGomesBarbosa/node-mcp-first#readme",
+  "homepage": "https://github.com/GabrielGomesBarbosa/monday-mcp#readme",
   "author": "Gabriel Barbosa <gabriel-gomes-barbosa@hotmail.com>",
   "license": "MIT",
   "scripts": {

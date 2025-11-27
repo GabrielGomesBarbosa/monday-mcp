@@ -1,7 +1,9 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 
-import { greetTool } from './greet';
-import { weatherTool } from './weather';
+import { boardListTool } from './get-board-list';
+import { boardDetailsTool } from './get-board-details';
+import { boardItemContentTool } from './get-board-item-content';
+import { getMeTool } from './get-me';
 
 /**
  * Tool Registry
@@ -10,7 +12,7 @@ import { weatherTool } from './weather';
  * Similar to Express router pattern where you mount all routes in one place.
  * 
  * To add a new tool:
- * 1. Create a new file in src/tools/ (e.g., myTool.ts)
+ * 1. Create a new file in src/tools/ (e.g., my-tool.ts)
  * 2. Export a ToolDefinition from that file
  * 3. Import it here and add it to the tools array
  */
@@ -28,8 +30,10 @@ import { weatherTool } from './weather';
 export function registerTools(server: McpServer) {
   // Collect all tool definitions
   const tools = [
-    greetTool,
-    weatherTool,
+    boardListTool,
+    boardDetailsTool,
+    boardItemContentTool,
+    getMeTool,
   ];
   
   // Register each tool with the server
